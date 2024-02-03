@@ -56,30 +56,30 @@
 									</header>
 									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
 									<h2>Objectifs</h2>
-									<p>Le Top Management d'une entreprise de traitement et de distribution d'eau d'un pays d'Afrique Centrale a souhaité avoir un état de reporting lui permettant d'avoir un certain nombre d'indicateurs clés définis. L'objectif étant d'avoir en temps réel une vue d'ensemble des activités et des processus métiers dans les 10 régions territoriales au sein desquelles l'entreprese opère.</p>
+									<p>Le Top Management d'une entreprise de traitement et de distribution d'eau d'un pays d'Afrique Centrale a souhaité avoir un état de reporting lui permettant d'avoir un certain nombre d'indicateurs clés définis. L'objectif étant d'avoir en temps réel une vue d'ensemble des activités et des processus métiers dans les 10 régions territoriales au sein desquelles l'entreprise opère. Un jeu de données pour l'année 2020 a été mis à ma disposition afin d'en ressortir un Proof Of Concept (POC).</p>
 
 									<p></p>
 
-									<h2>Configuration</h2>
-									<p>Au démarrage du projet, un nettoyage des données a été effectué afin de garantir la précision de l'analyse. Il s'agissait notamment de supprimer les doublons, les cellules fusionnées, les sauts de séquence,etc. Parallèlement, les données ont été mises à jour (en créant des nouvelles colonnes) pour avoir une logique dans leur interprétation.</p>
+									<h2>Préparation des données</h2>
+									<p>Au démarrage du projet, un nettoyage des données a été effectué afin de garantir la précision de l'analyse. Il s'agissait notamment de supprimer les doublons, les cellules fusionnées, les sauts de séquence,etc. Parallèlement, les données ont été mises à jour (en créant des nouvelles colonnes) pour avoir une logique lors de leur présentation sur les tableaux de bord.</p>
 
 									<img src="images/CAMWATER/sk_ExcelPivotRawDataBeforeManipulation.png" alt="Excel Worksheet before Data Cleaning" style="width:1000px;height:500px;" data-position="center center" />
-									<p><i>Fig 1. Cette image montre une partie du jeu de données AVANT le nettoyage.</i></p>
+									<p><i>Fig 1. Cette image montre une partie du jeu de données <strong>AVANT</strong> le nettoyage.</i></p>
 																		
 									<img src="images/CAMWATER/sk_ExcelPivotRawDataAfterManipulation.png" alt="Excel Worksheet after Data Cleaning" style="width:1000px;height:500px;" data-position="center center" />
-									<p><i>Fig 2. Cette image montre une partie du jeu de données APRES le nettoyage.</i></p>
+									<p><i>Fig 2. Cette image montre une partie du jeu de données <strong>APRES</strong> le nettoyage.</i></p>
 									
-									<p>Ces étapes étaient essentielles pour s'assurer que les données soient correctement retraitées pour l'analyse et qu'elles produiraient des résultats précis. Nous avons commencé avec 195 enregistrements et nous en avons maintenant 28081.</p>
+									<p>Ces étapes étaient essentielles pour s'assurer que les données soient correctement retraitées pour l'analyse et qu'elles produisent des résultats précis. Le fichier de départ contenait 195 enregistrements et après retraitement le fichier contient 28081 enregistrements.</p>
 									
 		
 									<h2>Exploration des données</h2>
 									<p>J'ai commencé tout d'abord par segmenter les données en fonction des processus, des sous-processus, des KPI, des unités de valeur, etc.</p>
 
-									<p> Dans un secod temps j'ai utilisé cette segmentation pour créer des tableaux croisés dynamiques regroupant plusieurs informations, créé des graphiques présentant diverses informations et enfin utilisé des fonctions pour effectuer des calculs.</p>
+									<p> Dans un second temps j'ai utilisé cette segmentation pour créer des Tableaux Croisés Dynamiques (TCD) regroupant plusieurs informations, créé des graphiques présentant diverses informations et enfin utilisé des fonctions pour effectuer des calculs.</p>
 									<img src="images/CAMWATER/sk_ExcelPivotTable1.png" alt="Excel Pivot Table" style="width:1000px;height:500px;" data-position="center center" />
 									<p><i>Fig 3. Extrait des différents tableaux et graphiques croisés dynamiques créés pour l'analyse.</i></p>
 
-									<p>Afin de faciliter la visualisation de l'ensemble de ces informations plusieurs tableau de bord ont été créés présentant une vue condensée des graphiques et de différents indeicateurs clés. J'ai également ajouté des slicers aux tableaux de bord, permettant aux utilisateurs de filtrer les données en fonction de deux critères clés : Les agences régionales (DRDA, DRN, DRYA, etc.) et les différents mois (Janv., Fév., etc.) de l'année. </p>
+									<p>Afin de faciliter la visualisation de l'ensemble de ces informations, plusieurs tableaux de bord ont été créés présentant une vue condensée des graphiques et de différents indicateurs clés. J'ai également ajouté des slicers aux tableaux de bord, permettant aux équipes de filtrer les données en fonction de deux critères clés : Les agences régionales (DRDA, DRN, DRYA, etc.) et les différents mois (Janv., Fév., etc.) de l'année. </p>
 
 			<img src="images/CAMWATER/sk_ExcelDashboardSecondaire.png" alt=" Dashboard Secondaire" style="width:1000px;height:500px;" data-position="center center" />
 									<p><i>Fig 4. Tableau de bord présentant une vue panoramique des indicateurs clés pour un sous-processus métier spécifique.</i></p>
